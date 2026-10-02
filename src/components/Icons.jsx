@@ -35,6 +35,11 @@ const paths = {
   box: <><path d="M21 8 12 3 3 8v8l9 5 9-5z" /><path d="m3 8 9 5 9-5M12 13v8" /></>,
   window: <><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M12 3v18M3 12h18" /></>,
   hammer: <><path d="m15 12-8.5 8.5a2.1 2.1 0 0 1-3-3L12 9" /><path d="M17.6 15 22 10.6 13.4 2 9 6.4z" /></>,
+  briefcase: <><rect x="2" y="7" width="20" height="14" rx="2" /><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M2 13h20" /></>,
+  drop: <path d="M12 2.7s-7 7.6-7 12.3a7 7 0 0 0 14 0c0-4.7-7-12.3-7-12.3z" />,
+  stairs: <path d="M3 21h5v-5h5v-5h5V6h3M3 21v-2" />,
+  rug: <><rect x="4" y="3" width="16" height="18" rx="1" /><path d="M8 7h8M8 11h8M8 15h8M4 3v-1M8 21v1M12 21v1M16 21v1M8 3V2M12 3V2M16 3V2" /></>,
+  cup: <><path d="M17 8h1a4 4 0 0 1 0 8h-1" /><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z" /><path d="M6 2v2M10 2v2M14 2v2" /></>,
   quote: <path d="M3 21c3 0 7-1 7-8V5H3v7h4c0 4-2 5-4 5zm11 0c3 0 7-1 7-8V5h-7v7h4c0 4-2 5-4 5z" />,
 }
 

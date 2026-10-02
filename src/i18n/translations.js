@@ -12,6 +12,11 @@ export const images = {
   move: img('1560448204-e02f11c3d0e2'),
   office: '/images/office-cleaning.jpg',
   windows: '/images/window-cleaning.jpg',
+  contract: '/images/contract-cleaning.jpg',
+  stairWax: '/images/stair-waxing.jpg',
+  stairs: '/images/stair-cleaning.jpg',
+  carpet: '/images/carpet-cleaning.jpg',
+  restaurant: '/images/restaurant-cleaning.jpg',
   renovation: img('1772299121503-cd62a57e3a26', 1600),
   interior: img('1616486338812-3dadae4b4ace', 1000),
   kitchen: img('1556911220-bff31c812dba'),
@@ -36,7 +41,11 @@ export const company = {
 }
 
 // Service ids are shared between languages and used for images, anchors and the booking form.
-export const serviceIds = ['renovation', 'home', 'deep', 'move', 'office', 'windows']
+// Ordered by Helsinki search volume (highest first).
+export const serviceIds = [
+  'deep', 'home', 'windows', 'move', 'office', 'contract',
+  'stairWax', 'stairs', 'carpet', 'renovation', 'restaurant',
+]
 
 export const serviceIcons = {
   home: 'home',
@@ -45,6 +54,11 @@ export const serviceIcons = {
   office: 'building',
   windows: 'window',
   renovation: 'hammer',
+  contract: 'briefcase',
+  stairWax: 'drop',
+  stairs: 'stairs',
+  carpet: 'rug',
+  restaurant: 'cup',
 }
 
 export const districts = [
@@ -249,6 +263,66 @@ const fi = {
           'Karmien ja ikkunalautojen pyyhintä',
           'Parvekelasien pesu',
           'Omat välineet ja pesuaineet mukana',
+        ],
+      },
+      contract: {
+        name: 'Yrityssiivous',
+        short: 'Sopimussiivous yrityksille – sovittu aikataulu, sama luotettava tiimi.',
+        description:
+          'Teemme yrityksille räätälöidyt siivoussopimukset. Sovimme yhdessä siivousvälin, laajuuden ja ajankohdan, ja sama tuttu tiimi huolehtii tiloistanne joka kerta.',
+        features: [
+          'Räätälöity siivoussopimus ja kiinteä hinta',
+          'Siivous päivällä, illalla tai viikonloppuna',
+          'Sama vastuuhenkilö ja tuttu tiimi',
+          'Laadunvalvonta ja joustavat muutokset',
+        ],
+      },
+      stairWax: {
+        name: 'Porrasvahaus',
+        short: 'Porraskäytävien lattioiden pesu, vahaus ja kiillotus koneellisesti.',
+        description:
+          'Porrasvahaus suojaa lattiapintoja ja pitää porraskäytävän siistinä pitkään. Poistamme vanhan vahan, pesemme lattiat koneellisesti ja levitämme uuden suojavahan.',
+        features: [
+          'Vanhan vahan poisto',
+          'Koneellinen peruspesu',
+          'Uuden suojavahan levitys ja kiillotus',
+          'Sopii taloyhtiöille ja liiketiloille',
+        ],
+      },
+      stairs: {
+        name: 'Porrassiivous',
+        short: 'Taloyhtiöiden porraskäytävien säännöllinen siivous.',
+        description:
+          'Pidämme taloyhtiön porraskäytävät siisteinä säännöllisellä siivouksella. Imuroimme ja pesemme portaat, pyyhimme kaiteet ja ovet sekä huolehdimme sisääntulotiloista.',
+        features: [
+          'Portaiden ja tasanteiden imurointi ja pesu',
+          'Kaiteiden, ovien ja painikkeiden pyyhintä',
+          'Sisääntulojen ja ovimattojen puhdistus',
+          'Hissien siivous sopimuksen mukaan',
+        ],
+      },
+      carpet: {
+        name: 'Matonpesu',
+        short: 'Mattojen pesu koneellisesti – raikkaat ja puhtaat matot.',
+        description:
+          'Pesemme matot ammattikoneilla, jotka poistavat syvälle pinttyneen lian, pölyn ja tahrat. Sopii sekä kodin että toimiston matoille ja kokolattiamatoille.',
+        features: [
+          'Koneellinen syväpesu',
+          'Tahranpoisto',
+          'Kokolattiamattojen pesu paikan päällä',
+          'Ympäristöystävälliset pesuaineet',
+        ],
+      },
+      restaurant: {
+        name: 'Ravintolasiivous',
+        short: 'Ravintoloiden ja kahviloiden hygieeninen siivous.',
+        description:
+          'Siivoamme ravintolat, kahvilat ja keittiöt hygieniavaatimusten mukaisesti. Siivous tehdään aukioloaikojen ulkopuolella, jotta toimintanne ei häiriinny.',
+        features: [
+          'Salin pöytien, tuolien ja lattioiden siivous',
+          'Keittiön pintojen ja laitteiden puhdistus',
+          'WC-tilojen siivous ja täydennys',
+          'Siivous aukioloaikojen ulkopuolella',
         ],
       },
       renovation: {
@@ -643,6 +717,66 @@ const en = {
           'Frames and window sills',
           'Balcony glazing',
           'Own equipment and detergents',
+        ],
+      },
+      contract: {
+        name: 'Contract cleaning',
+        short: 'Cleaning contracts for businesses – agreed schedule, same reliable team.',
+        description:
+          'We create tailored cleaning contracts for businesses. Together we agree on frequency, scope and timing, and the same familiar team takes care of your premises every time.',
+        features: [
+          'Tailored cleaning contract and fixed price',
+          'Cleaning during the day, evening or weekend',
+          'Same contact person and familiar team',
+          'Quality control and flexible changes',
+        ],
+      },
+      stairWax: {
+        name: 'Stair waxing',
+        short: 'Machine washing, waxing and polishing of stairwell floors.',
+        description:
+          'Stair waxing protects floor surfaces and keeps the stairwell neat for longer. We strip the old wax, machine-wash the floors and apply a new protective wax.',
+        features: [
+          'Old wax removal',
+          'Machine deep wash',
+          'New protective wax and polishing',
+          'For housing companies and commercial premises',
+        ],
+      },
+      stairs: {
+        name: 'Stair cleaning',
+        short: 'Regular cleaning of housing company stairwells.',
+        description:
+          'We keep housing company stairwells tidy with regular cleaning. We vacuum and wash the stairs, wipe railings and doors, and take care of entrances.',
+        features: [
+          'Vacuuming and washing stairs and landings',
+          'Wiping railings, doors and buttons',
+          'Cleaning entrances and doormats',
+          'Elevator cleaning by agreement',
+        ],
+      },
+      carpet: {
+        name: 'Carpet cleaning',
+        short: 'Machine carpet washing – fresh and clean carpets.',
+        description:
+          'We wash carpets with professional machines that remove deep-set dirt, dust and stains. Suitable for home and office rugs as well as wall-to-wall carpets.',
+        features: [
+          'Machine deep wash',
+          'Stain removal',
+          'On-site wall-to-wall carpet cleaning',
+          'Eco-friendly detergents',
+        ],
+      },
+      restaurant: {
+        name: 'Restaurant cleaning',
+        short: 'Hygienic cleaning for restaurants and cafés.',
+        description:
+          'We clean restaurants, cafés and kitchens to hygiene standards. Cleaning is done outside opening hours so your business is not disturbed.',
+        features: [
+          'Dining room tables, chairs and floors',
+          'Kitchen surfaces and equipment',
+          'Restroom cleaning and restocking',
+          'Cleaning outside opening hours',
         ],
       },
       renovation: {

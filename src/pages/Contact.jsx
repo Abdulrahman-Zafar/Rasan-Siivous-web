@@ -256,7 +256,7 @@ export default function Contact() {
             <div className="map-card">
               <iframe
                 title={c.mapTitle}
-                src="https://www.openstreetmap.org/export/embed.html?bbox=24.925%2C60.163%2C24.955%2C60.177&layer=mapnik&marker=60.1695%2C24.9395"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=25.0853%2C60.2108%2C25.1053%2C60.2188&layer=mapnik&marker=60.2148%2C25.0953"
                 loading="lazy"
               />
             </div>

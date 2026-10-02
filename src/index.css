@@ -221,10 +221,10 @@ summary:focus-visible {
   color: var(--primary);
   letter-spacing: -0.02em;
 }
-.logo-text { color: #f7941d; }
-.logo-text span { color: #2b2b38; font-weight: 800; }
+.logo-text { color: var(--primary); }
+.logo-text span { color: inherit; font-weight: 800; }
 .logo-icon { height: 42px; width: auto; display: block; }
-.logo-light .logo-text { color: #f7941d; }
+.logo-light .logo-text { color: #fff; }
 .logo-light .logo-text span { color: #fff; }
 .logo-light rect { fill: var(--accent); }
 .logo-light circle { fill: #fff; }
