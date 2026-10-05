@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rasansiivousoy.vercel.app/sitemap.xml
