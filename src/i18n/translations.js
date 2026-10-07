@@ -887,7 +887,7 @@ const en = {
     email: 'Email',
     address: 'Office',
     hours: 'Opening hours',
-    hoursLines: ['Mon–Fri 8:00–18:00', 'Sat 9:00–15:00', 'Sun closed'],
+    hoursLines: ['24/7'],
     businessId: 'Business ID',
     form: {
       title: 'Booking form',
