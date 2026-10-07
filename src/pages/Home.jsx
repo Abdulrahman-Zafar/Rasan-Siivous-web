@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useLang } from '../i18n/context'
-import { districts, images, serviceIcons, serviceIds } from '../i18n/translations'
+import { images, serviceIcons, serviceIds } from '../i18n/translations'
 import Icon from '../components/Icons'
 import { CtaBand, SectionHeading } from '../components/Shared'
 
@@ -154,13 +154,6 @@ export default function Home() {
           <div>
             <SectionHeading eyebrow={h.areasEyebrow} title={h.areasTitle} text={h.areasText} />
           </div>
-          <ul className="district-list">
-            {districts.map((d) => (
-              <li key={d}>
-                <Icon name="pin" size={14} /> {d}
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 

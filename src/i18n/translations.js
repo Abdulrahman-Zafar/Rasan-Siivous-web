@@ -99,7 +99,7 @@ const fi = {
     heroEyebrow: 'Rakennussiivous Helsingissä',
     heroTitle: 'Ammattimainen rakennus- ja remonttisiivous',
     heroText:
-      'Luovutusvalmis siivous uudiskohteisiin ja remontteihin sovitussa aikataulussa koko pääkaupunkiseudulla.',
+      'Luovutusvalmis siivous uudiskohteisiin ja remontteihin sovitussa aikataulussa koko pääkaupunkiseudulla. Tarjoamme siivouspalveluitamme Helsingissä, Vantaalla, Espoossa ja Uudellamaalla.',
     heroCta: 'Varaa siivous',
     heroCta2: 'Katso palvelut',
     heroPoints: [
@@ -166,7 +166,7 @@ const fi = {
     areasEyebrow: 'Palvelualue',
     areasTitle: 'Palvelemme koko pääkaupunkiseudulla',
     areasText:
-      'Siivoamme koteja ja toimitiloja kaikkialla Helsingissä sekä Espoossa, Vantaalla ja Kauniaisissa. Ei matkakuluja Helsingin alueella.',
+      'Siivoamme koteja ja toimitiloja kaikkialla Helsingissä sekä Espoossa, Vantaalla ja Kauniaisissa. Ei matkakuluja Helsingin alueella. Tarjoamme siivouspalveluitamme Helsingissä, Vantaalla, Espoossa ja Uudellamaalla.',
     testimonialsEyebrow: 'Asiakaskokemuksia',
     testimonialsTitle: 'Mitä asiakkaamme sanovat',
     testimonials: [
@@ -527,7 +527,7 @@ const en = {
     title: 'Rasan Siivous – Professional Cleaning Services in Helsinki',
   },
   topbar: {
-    hours: 'Mon–Fri 8–18, Sat 9–15',
+    hours: '24/7',
     area: 'Helsinki, Espoo, Vantaa and Kauniainen',
   },
   nav: {
@@ -553,7 +553,7 @@ const en = {
     heroEyebrow: 'Post-construction cleaning in Helsinki',
     heroTitle: 'Professional construction & renovation cleaning',
     heroText:
-      'Handover-ready cleaning for new builds and renovations, delivered on schedule across the capital region.',
+      'Handover-ready cleaning for new builds and renovations, delivered on schedule across the capital region. We provide our cleaning services in Helsinki, Vantaa, Espoo and Uusimaa.',
     heroCta: 'Book cleaning',
     heroCta2: 'View services',
     heroPoints: [
@@ -620,7 +620,7 @@ const en = {
     areasEyebrow: 'Service area',
     areasTitle: 'Serving the entire capital region',
     areasText:
-      'We clean homes and business premises everywhere in Helsinki as well as in Espoo, Vantaa and Kauniainen. No travel fees within Helsinki.',
+      'We clean homes and business premises everywhere in Helsinki as well as in Espoo, Vantaa and Kauniainen. No travel fees within Helsinki. We provide our cleaning services in Helsinki, Vantaa, Espoo and Uusimaa.',
     testimonialsEyebrow: 'Testimonials',
     testimonialsTitle: 'What our customers say',
     testimonials: [
