@@ -73,7 +73,7 @@ const fi = {
     title: 'Rasan Siivous – Ammattimainen siivouspalvelu Helsingissä',
   },
   topbar: {
-    hours: 'Ma–Pe 8–18, La 9–15',
+    hours: '24/7',
     area: 'Helsinki, Espoo, Vantaa ja Kauniainen',
   },
   nav: {
