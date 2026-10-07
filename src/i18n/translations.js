@@ -433,7 +433,7 @@ const fi = {
     email: 'Sähköposti',
     address: 'Toimisto',
     hours: 'Aukioloajat',
-    hoursLines: ['Ma–Pe 8.00–18.00', 'La 9.00–15.00', 'Su suljettu'],
+    hoursLines: ['24/7'],
     businessId: 'Y-tunnus',
     form: {
       title: 'Varauslomake',
